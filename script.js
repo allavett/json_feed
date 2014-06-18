@@ -1,3 +1,10 @@
+/**
+ * Makes request to news feed and builds HTML
+ *
+ * @version 1.0
+ * @author Allar Vendla <allarvendla@gmail.com>
+ */
+
 // Get search word
 var srchKWrd = window.location.href.match(/search=(.*)/);
 if (srchKWrd == null) {srchKWrd = "*%3A*"} else if (srchKWrd[1] == ""){srchKWrd = "*%3A*"} else {srchKWrd = srchKWrd[1]}
